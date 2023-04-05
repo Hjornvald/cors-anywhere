@@ -1,7 +1,7 @@
 // Listen on a specific host via the HOST environment variable
-var host = process.env.HOST || '193.14.171.165';
+var host = process.env.HOST || 'sps-demo.pricesystem.se';
 // Listen on a specific port via the PORT environment variable
-var port = process.env.PORT || 443;
+var port = process.env.PORT || 8010;
 
 // Grab the blacklist from the command-line so that we can update the blacklist without deploying
 // again. CORS Anywhere is open by design, and this blacklist is not used, except for countering
